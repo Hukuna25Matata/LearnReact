@@ -13,3 +13,16 @@ npm create vite@latest my-react-app -- --template react
 
 5. npm run dev
 
+
+Sample Project: Cricket Score Tracker 
+
+A simple cricket score tracker built using React.js and Vite.
+
+### Features:
+- Track total runs and wickets
+- Add 1, 4, or 6 runs with buttons
+- Add a wicket (max 10)
+- Reset the match anytime
+
+
+
