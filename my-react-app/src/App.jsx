@@ -16,7 +16,7 @@ function App() {
         <button onClick={() => setWickets(wickets + 1)}>+1 Wicket</button>
       </div>
 
-      
+      <button onClick={() => {setRuns(0);setWickets(0);}}>Reset Match</button>
     </div>
   );
 }
