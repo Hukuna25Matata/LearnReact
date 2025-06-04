@@ -1,35 +1,45 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { useState } from 'react';
+import tamilNames from './tamilNames.json';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [search, setSearch] = useState('');
+  const [selectedName, setSelectedName] = useState(null); // NEW
+
+  const filteredNames = tamilNames.filter((entry) =>
+    entry.name.toLowerCase().includes(search.toLowerCase())
+  );
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
-  )
+    <div className="App">
+      <h1>Tamil Baby Names</h1>
+
+      <input
+        type="text"
+        placeholder="Search by name..."
+        value={search}
+        onChange={(e) => setSearch(e.target.value)}
+      />
+
+      <ul>
+        {filteredNames.map((entry, index) => (
+          <li key={index} onClick={() => setSelectedName(entry)}>
+            <strong>{entry.name}</strong> ({entry.gender}) – {entry.meaning}
+          </li>
+        ))}
+      </ul>
+
+      {selectedName && (
+        <div className="selected-card">
+          <h2>{selectedName.name}</h2>
+          <p><strong>Gender:</strong> {selectedName.gender}</p>
+          <p><strong>Meaning:</strong> {selectedName.meaning}</p>
+          <p><strong>Origin:</strong> {selectedName.origin}</p>
+          <button onClick={() => setSelectedName(null)}>Close</button>
+        </div>
+      )}
+    </div>
+  );
 }
 
-export default App
+export default App;
