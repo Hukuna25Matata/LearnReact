@@ -16,6 +16,108 @@
       "title": "The Alchemist",
       "author": "Paulo Coelho",
       "summary": "A story about dreams and destiny."
+    },
+    {
+      "id": 4,
+      "title": "Thinking, Fast and Slow",
+      "author": "Daniel Kahneman",
+      "summary": "Explores how we think and make decisions."
+    },
+    {
+      "id": 5,
+      "title": "Man's Search for Meaning",
+      "author": "Viktor E. Frankl",
+      "summary": "A Holocaust survivor's lessons on finding purpose."
+    },
+    {
+      "id": 6,
+      "title": "The Power of Now",
+      "author": "Eckhart Tolle",
+      "summary": "Teaches how to live in the present moment."
+    },
+    {
+      "id": 7,
+      "title": "Educated",
+      "author": "Tara Westover",
+      "summary": "A memoir about growing up without formal education."
+    },
+    {
+      "id": 8,
+      "title": "Deep Work",
+      "author": "Cal Newport",
+      "summary": "Shows how focused work can lead to success."
+    },
+    {
+      "id": 9,
+      "title": "Can't Hurt Me",
+      "author": "David Goggins",
+      "summary": "A story of mental toughness and self-discipline."
+    },
+    {
+      "id": 10,
+      "title": "The Subtle Art of Not Giving a F*ck",
+      "author": "Mark Manson",
+      "summary": "A counterintuitive approach to living a good life."
+    },
+    {
+      "id": 11,
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert T. Kiyosaki",
+      "summary": "Lessons on money and investing from two different perspectives."
+    },
+    {
+      "id": 12,
+      "title": "The 7 Habits of Highly Effective People",
+      "author": "Stephen R. Covey",
+      "summary": "A guide to personal and professional success through strong habits."
+    },
+    {
+      "id": 13,
+      "title": "Ikigai",
+      "author": "Héctor García and Francesc Miralles",
+      "summary": "Discovering the Japanese secret to a long and happy life."
+    },
+    {
+      "id": 14,
+      "title": "Make Your Bed",
+      "author": "Admiral William H. McRaven",
+      "summary": "Simple lessons that can change your life and maybe the world."
+    },
+    {
+      "id": 15,
+      "title": "Start With Why",
+      "author": "Simon Sinek",
+      "summary": "Explains how great leaders inspire action by starting with 'why'."
+    },
+    {
+      "id": 16,
+      "title": "The Four Agreements",
+      "author": "Don Miguel Ruiz",
+      "summary": "A practical guide to personal freedom and wisdom."
+    },
+    {
+      "id": 17,
+      "title": "Outliers",
+      "author": "Malcolm Gladwell",
+      "summary": "Looks at the factors that contribute to high levels of success."
+    },
+    {
+      "id": 18,
+      "title": "Grit",
+      "author": "Angela Duckworth",
+      "summary": "Shows why passion and perseverance matter more than talent."
+    },
+    {
+      "id": 19,
+      "title": "Drive",
+      "author": "Daniel H. Pink",
+      "summary": "Reveals what truly motivates people in work and life."
+    },
+    {
+      "id": 20,
+      "title": "Mindset",
+      "author": "Carol S. Dweck",
+      "summary": "The power of believing that you can improve."
     }
   ]
   
